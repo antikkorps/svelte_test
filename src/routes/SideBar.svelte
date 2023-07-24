@@ -23,7 +23,7 @@
 </script>
 
 <div class="text-center">
-	<Button on:click={() => (hidden2 = false)}>Show navigation</Button>
+	<Button on:click={() => (hidden2 = false)}>Open Menu</Button>
 </div>
 <Drawer transitionType="fly" {transitionParams} bind:hidden={hidden2} id="sidebar2">
 	<div class="flex items-center">
