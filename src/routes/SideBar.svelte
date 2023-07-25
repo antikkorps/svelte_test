@@ -12,6 +12,7 @@
 		SidebarItem,
 		SidebarWrapper
 	} from 'flowbite-svelte';
+	import QuizIcon from '@mui/icons-material/Quiz';
 	import { sineIn } from 'svelte/easing';
 	let hidden2 = true;
 	let spanClass = 'flex-1 ml-3 whitespace-nowrap';
